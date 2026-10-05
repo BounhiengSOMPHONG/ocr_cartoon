@@ -1,0 +1,9 @@
+# Virtualenv / build artifacts
+venv/
+__pycache__/
+*.py[cod]
+
+# Model checkpoints — ~620MB total, over GitHub's 100MB/file limit.
+# Download from the beta-0.3 release (see README "โมเดล" section):
+#   https://github.com/zyddnys/manga-image-translator/releases/tag/beta-0.3
+models/**/*.ckpt
